@@ -1,0 +1,13 @@
+#!/bin/bash
+# Versão 1
+#clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
+
+## Versão 2
+if dpkg -l | grep -q 'cowsay'
+then
+	clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
+else
+	sudo apt install cowsay && clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
+fi
+
+
