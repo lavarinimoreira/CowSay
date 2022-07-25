@@ -19,7 +19,7 @@ then
 	clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
 else 
 # Caso não esteja instalado, o pacote "cowsay" será instalado na máquina:
-	sudo apt install cowsay && clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
+	sudo apt update && sudo apt install cowsay && clear && echo -e "\n\nSalve, vaquinha!" && cowsay Aeeew!
 fi
 
 
